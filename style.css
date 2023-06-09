@@ -99,10 +99,7 @@ nav ul li a:hover {
     margin: auto;
     font-size: .8rem;
     height: 500px;
-<<<<<<< HEAD
 
-=======
->>>>>>> ad80aa6b6d633a721aeb10b2904d9a8a4d03800d
 }
 
 .secondSection h1 {
@@ -137,7 +134,7 @@ main hr {
     top: -41px;
     left: -9px;
     border-radius: 6px;
-     cursor: pointer;
+    cursor: pointer;
 }
 
 .image-top:hover {
