@@ -19,7 +19,6 @@ body {
         position: absolute;
         background: rgb(30, 30, 75);
         border-radius: 6px;
-        left: 267px;
         transition: opacity 0.5s, visibility 0.5s;
         display: flex;
         flex-direction: column;
