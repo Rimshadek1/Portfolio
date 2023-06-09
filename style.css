@@ -59,20 +59,10 @@ body {
         width: 60%;
     }
 
-    .secondSection {
-        height: auto;
-        padding: 40px 20px;
-    }
 
-    .box {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .vertical {
-        margin: 20px 0;
-    }
 }
+
+
 
 * {
     margin: 0;
@@ -163,6 +153,22 @@ nav ul li a:hover {
 
 .gray {
     color: gray;
+}
+
+@media only screen and (max-width: 768px) {
+    .secondSection {
+        display: none;
+    }
+
+    .box {
+        display: none;
+    }
+
+    .vertical-desc1 {
+        display: none;
+    }
+
+
 }
 
 .secondSection {
