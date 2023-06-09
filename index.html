@@ -15,6 +15,7 @@
     <link rel=" stylesheet" href="style.css">
     <link rel="stylesheet" href="script.js">
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 
 
@@ -23,24 +24,37 @@
         <nav>
             <div class="left">Rimshad's Portfolio</div>
             <div class="right">
-                <ul>
-
+                <button id="menuButton"><i class="uil uil-list-ul"></i></button>
+                <ul id="menuList">
                     <li><a href="/">Home</a></li>
-
-
                     <li><a href="/">About</a></li>
-
-
                     <li><a href="/">Services</a></li>
-
                     <li><a href="/">Projects</a></li>
-
-
                     <li><a href="/">Contact me</a></li>
-
                 </ul>
             </div>
+            <script>
+                const menuButton = document.getElementById("menuButton");
+                    const menuList = document.getElementById("menuList");
+
+                    let isMenuVisible = false;
+
+                    menuButton.addEventListener("click", function () {
+                        isMenuVisible = !isMenuVisible;
+
+                        if (isMenuVisible) {
+                            menuList.style.opacity = "1";
+                            menuList.style.visibility = "visible";
+                        } else {
+                            menuList.style.opacity = "0";
+                            menuList.style.visibility = "hidden";
+                        }
+                    });
+
+
+            </script>
         </nav>
+
     </header>
     <main>
         <section class="firstSection">

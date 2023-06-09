@@ -4,6 +4,77 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@media (min-width: 768px) {
+    #menuButton {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    #menuList {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        background: rgb(30, 30, 75);
+        border-radius: 6px;
+        left: 267px;
+        transition: opacity 0.5s, visibility 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #menuButton {
+        background: rgb(17, 17, 97);
+        padding: 13px;
+        color: white;
+        border: aliceblue;
+        border-radius: 6px;
+        transition: background-color 0.5s;
+    }
+
+    #menuButton:hover {
+        background-color: #181836;
+        cursor: pointer;
+    }
+}
+
+/* Add responsive styles */
+@media only screen and (max-width: 768px) {
+
+    .firstSection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftSection,
+    .rightSection {
+        width: 100%;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .rightSection img {
+        width: 60%;
+    }
+
+    .secondSection {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .box {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .vertical {
+        margin: 20px 0;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,15 +86,15 @@ nav {
     align-items: center;
     height: 80px;
     background-color: rgb(18, 18, 62);
+    padding: 0 20px;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
+    list-style: none;
 }
 
 nav ul li {
-    list-style: none;
     margin: 0 23px;
     text-decoration: none;
 }
@@ -38,6 +109,7 @@ nav ul li a:hover {
     color: rgb(222, 180, 250);
 
 }
+
 
 .left {
     font-size: 1.5rem;
