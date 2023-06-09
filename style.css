@@ -101,6 +101,10 @@ nav ul li a:hover {
     height: 44vw;
 }
 
+.secondSection h1 {
+    font-size: 23px;
+}
+
 .secondSection .box {
     background: rgb(209, 207, 207);
     width: 80vw;
@@ -113,7 +117,7 @@ nav ul li a:hover {
     background: white;
     height: 93px;
     width: 1px;
-    margin: 0 116px;
+    margin: 0 179px;
 }
 
 main hr {
@@ -128,6 +132,11 @@ main hr {
     position: relative;
     top: -41px;
     left: -9px;
+    border-radius: 6px;
+}
+
+.image-top:hover {
+    transform: scale(4);
 }
 
 .vertical-title {
@@ -141,6 +150,14 @@ main hr {
     position: relative;
     top: 65px;
     width: 150px px;
+    color: gray;
+    font-size: 10px;
+}
+
+.vertical-desc1 {
+    width: 201px;
+    position: relative;
+    top: 60px;
     color: gray;
     font-size: 10px;
 }
