@@ -133,6 +133,7 @@ main hr {
     top: -41px;
     left: -9px;
     border-radius: 6px;
+     cursor: pointer;
 }
 
 .image-top:hover {
