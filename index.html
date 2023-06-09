@@ -142,6 +142,18 @@
         <div class="footer-right">
             Copyright &#169; rimshadportfolio.com | All right reserved
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('footer').ripples({
+                    resolution: 512,
+                    dropRadius: 10,
+                    perturbance: 0.008,
+                });
+            }) </script>
     </footer>
     <script>
         var typed = new Typed('#element', {
@@ -154,7 +166,7 @@
                 }, 2000); // Restart after 2 seconds (2000 milliseconds)
             }
         });
-    </script>
-</body>
+                </>
+</body >
 
-</html>
+</html >
