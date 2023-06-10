@@ -118,6 +118,7 @@ nav ul li a:hover {
 .leftSection {
     font-size: 2rem;
     margin: 70px 0;
+    text-align: center;
 }
 
 .leftSection .buttons {
@@ -155,6 +156,10 @@ nav ul li a:hover {
     color: gray;
 }
 
+.text-work {
+    color: gray;
+    font-size: 10px;
+}
 
 .secondSection {
     max-width: 80vw;
