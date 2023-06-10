@@ -287,9 +287,10 @@ footer .footer-right {
 }
 
 /* Media Query for mobile devices */
-@media (min-width: 480px) {
+@media (max-width: 479px) {
     .footer {
-        padding: 23px 30px;
+        flex-wrap: wrap;
+        padding: 23px 35px;
     }
 
     .footer>div {
