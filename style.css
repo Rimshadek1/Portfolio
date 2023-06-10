@@ -235,6 +235,7 @@ main hr {
     font-size: 10px;
 }
 
+/* 
 footer {
     background: #181836;
 }
@@ -257,4 +258,43 @@ footer .footer-right {
     text-align: center;
     color: gray;
     padding: 12px 0;
+} */
+footer {
+    background: #181836;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 15px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer>div {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer .footer-right {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+/* Media Query for mobile devices */
+@media (min-width: 480px) {
+    .footer {
+        padding: 23px 30px;
+    }
+
+    .footer>div {
+        width: 50%;
+        max-width: none;
+        margin-bottom: 0;
+    }
 }
