@@ -161,6 +161,7 @@ nav ul li a:hover {
     margin: auto;
     font-size: .8rem;
     height: auto;
+    padding: 30px;
 }
 
 .secondSection h1 {
